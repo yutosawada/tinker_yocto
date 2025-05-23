@@ -3,24 +3,7 @@ build/tmp
 build/cache
 build/sstate-cache
 build/downloads
-build/buildhistory
-build/tmp-*
 packages/
-
-# build/conf以外のbuildディレクトリ内のファイルを無視
-build/*
-!build/conf
-
-# メタレイヤー（必要に応じて個別にサブモジュールとして管理）
-meta-*/
-poky/
-bitbake/
-
-# シンボリックリンク
-scripts
-oe-init-build-env
-meta-poky
-.templateconf
 
 # エディタ関連
 *.swp
